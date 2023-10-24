@@ -1,47 +1,46 @@
 html {
-  font-size: ;
-  font-family: ;
+  font-family: 'Courier Prime', monospace;
   text-align: ;
-  background-image: url("");
+  background-image: url("vid/croppedbg.gif");
   background-blend-mode: ;
-  background-size: ;
+  background-size: cover;
   z-index: 1;
   position: relative;
+  font-size: 12px;
 }
 
 a:link {
   color: ;
   background-color: ; 
-  text-decoration: ;
+  text-decoration: none;
 }
 
 a:visited {
-  color: ;
   background-color: ; 
-  text-decoration: ;
+  text-decoration: none;
 }
 
 a:hover {
-  color: ;
-  background-color: rgba(); /*r g b transparency*/
-  text-decoration: ;
+  background-color: rgba(131, 204, 0, 0.35); /*r g b transparency*/
+  text-decoration: underline;
 }
 
 a:active {
   color: ;
   background-color: ; 
-  text-decoration: ;
+  text-decoration: underline;
 }
 
 h1 {
   font-style: ;
+  font-size: 24px;
   text-align: ;
 }
 
 h2 {
   font-style: ;
   text-align: ;
-  font-size: ;
+  font-size: 15px;
 }
 
 /*basic css*/
@@ -50,6 +49,13 @@ body {
 }
 
 head {
+}
+
+.index {
+ /* background-image: url("vid/sweetlikecandylong.gif");
+  background-size: auto;
+  width: 100%;
+  height: 100%;*/
 }
 
 /*gallery grid*/
@@ -63,21 +69,15 @@ head {
   align-items: ;
 }
 
-.navigation {
+.topnavigation {
   font-size: ;
   padding-bottom: ;
-  z-index: 1;
+  background-color: rgba(255, 191, 179, 0.35);
 }
 
-.video {
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: ;
-  z-index: -1;
+.bottomnavigation {
+  position: fixed;
+  bottom: 0;
 }
 
 /*layout responsive to tab size change*/
