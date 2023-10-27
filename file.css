@@ -1,32 +1,39 @@
 html {
   font-family: 'Courier Prime', monospace;
-  text-align: ;
+/*  font-family: 'Open Sans', sans-serif;*/
+  text-align: center;
+  justify-content: center;
+  max-width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
   background-image: url("vid/croppedbg.gif");
   background-blend-mode: ;
-  background-size: cover;
+  background-size: auto%;
   z-index: 1;
   position: relative;
   font-size: 12px;
 }
 
 a:link {
-  color: ;
+  color: black;
   background-color: ; 
   text-decoration: none;
 }
 
 a:visited {
+  color: black;
   background-color: ; 
   text-decoration: none;
 }
 
 a:hover {
+  color: white;
   background-color: rgba(131, 204, 0, 0.35); /*r g b transparency*/
   text-decoration: underline;
 }
 
 a:active {
-  color: ;
+  color: black;
   background-color: ; 
   text-decoration: underline;
 }
@@ -35,20 +42,29 @@ h1 {
   font-style: ;
   font-size: 24px;
   text-align: ;
+  max-width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 h2 {
   font-style: ;
   text-align: ;
-  font-size: 15px;
+  font-size: 12px;
+  max-width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 /*basic css*/
 body {
-
-}
-
-head {
+  max-width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .index {
@@ -67,17 +83,62 @@ head {
   grid-row-gap: ;
   justify-content: ;
   align-items: ;
+  max-width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 20px;
+  max-width: 400px;
+/*  background-color: rgba(179, 222, 255, 0.50);*/
+  background-color: rgba(255, 255, 255, 0.50); 
+  max-width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: center;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.subheader {
+  font-style: italic;
+  font-size: 12px;
+  max-width: 400px;
+/*  background-color: rgba(191, 179, 255, 0.50);*/
+  background-color: rgba(255, 255, 255, 0.50); 
+  max-width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: center;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 .topnavigation {
-  font-size: ;
-  padding-bottom: ;
-  background-color: rgba(255, 191, 179, 0.35);
+  font-size: 15px;
+  max-width: 400px;
+/*  background-color: rgba(255, 191, 179, 0.50);*/
+  background-color: rgba(255, 255, 255, 0.50); 
+  max-width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: center;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 .bottomnavigation {
-  position: fixed;
-  bottom: 0;
+  position: relative;
+  top: 645px;
+/*  background-color: rgba(179, 236, 255, 0.50);*/
+  background-color: rgba(255, 255, 255, 0.50); 
+
+  max-width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: center;
 }
 
 /*layout responsive to tab size change*/
