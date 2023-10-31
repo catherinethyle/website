@@ -6,7 +6,8 @@ html {
   max-width: 80%;
   padding-left: 10%;
   padding-right: 10%;
-  background-image: url("vid/croppedbg.gif");
+  background-color: rgba(242,212,215, 1.0);
+/*  background-image: url("vid/croppedbg.gif");*/
   background-blend-mode: ;
   background-size: auto%;
   z-index: 1;
@@ -74,6 +75,10 @@ body {
   height: 100%;*/
 }
 
+.indeximg {
+  max-width: 100%;
+}
+
 /*gallery grid*/
 .gallery {
   max-width: %;
@@ -130,8 +135,8 @@ body {
 }
 
 .bottomnavigation {
-  position: relative;
-  top: 645px;
+  position: static;
+  bottom: 0px;
 /*  background-color: rgba(179, 236, 255, 0.50);*/
   background-color: rgba(255, 255, 255, 0.50); 
   max-width: 80%;
@@ -141,8 +146,13 @@ body {
 }
 
 /*layout responsive to tab size change*/
-@media only screen and (max-width: 600) {
-  
+@media only screen and (max-width: 500) {
+  .bottomnavigation {
+    top: 300px;
+    max-width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+  } 
 }
 
 @media only screen and (max-width: ) {
