@@ -132,6 +132,13 @@ body {
   padding-top: 0;
 }
 
+.exhibitions {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  gap: 10px;
+}
+
 .bottomnavigation {
   position: static;
   bottom: 0px;
