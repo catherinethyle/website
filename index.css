@@ -4,17 +4,12 @@ html {
   font-family: 'DotGothic16', sans-serif;
   text-align: center;
   justify-content: center;
-  max-width: 80%;
-  padding-top: 10px;
-  padding-left: 10%;
-  padding-right: 10%;
-  background-color: rgba(242,212,215, 1.0);
-/*  background-image: url("vid/croppedbg.gif");*/
-  background-blend-mode: ;
-  background-size: auto%;
-  z-index: 1;
-  position: relative;
+  background-image: url("vid/sweetlikecandylong.gif");
+  background-blend-mode: lighten;
+  background-size: auto;
+  background-position: 0px -75px;
   font-size: 12px;
+  background-color: rgba(242,212,215,0.25);
 }
 
 a:link {
@@ -45,6 +40,9 @@ h1 {
   font-style: ;
   font-size: 24px;
   text-align: ;
+  max-width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-bottom: 0;
   padding-top: 0;
 }
@@ -53,29 +51,11 @@ h2 {
   font-style: ;
   text-align: ;
   font-size: 12px;
-  padding-bottom: 0;
-  padding-top: 0;
-}
-
-/*basic css*/
-body {
-  background-color: rgba(255, 255, 255, 0.50); 
-  padding-left: 25px;
-  padding-right: 25px;
-}
-
-/*gallery grid*/
-.gallery {
-  max-width: %;
-  grid-template-columns: auto auto auto;
-  display: grid;
-  grid-column-gap: ;
-  grid-row-gap: ;
-  justify-content: ;
-  align-items: ;
   max-width: 80%;
   padding-left: 10%;
   padding-right: 10%;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 .header {
@@ -119,6 +99,11 @@ body {
   margin-bottom: 10px;
 }
 
+.images {
+  max-width: 100%;
+  max-height: auto;
+}
+
 .exhibitions {
   display: grid;
   grid-template-columns: auto auto;
@@ -127,6 +112,7 @@ body {
   grid-row-gap: 10px;
   align-items: center;
   text-align: left;
+  
 }
 
 .horizontaldivtop {
@@ -142,17 +128,12 @@ body {
 }
 
 /*layout responsive to tab size change*/
-@media only screen and (max-width: 900px) {
-  .images {
-    max-width: 500px;
-    max-height: auto;
-  }
+@media only screen and (max-width: 500) {
 }
 
-@media only screen and (max-width: 700px) {
-  .images {
-    max-width: 300px;
-    max-height: auto;
+@media only screen and (max-width: ) {
+  .gallery {
+    grid-template-columns: ;
   }
 }
 
