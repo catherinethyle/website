@@ -8,12 +8,11 @@ html {
   padding-top: 10px;
   padding-left: 10%;
   padding-right: 10%;
-  background-color: rgba(242,212,215, 1.0);
-/*  background-image: url("vid/croppedbg.gif");*/
-  background-blend-mode: ;
-  background-size: auto%;
-  z-index: 1;
-  position: relative;
+  background-color: rgba(255, 255, 251, 0.35);
+  background-image: url("vid/sweetlikecandylong.gif");
+  background-blend-mode: soft-light;
+  background-size: auto;
+  background-position: -75px -25px;
   font-size: 12px;
 }
 
@@ -55,6 +54,10 @@ h2 {
   font-size: 12px;
   padding-bottom: 0;
   padding-top: 0;
+}
+
+p {
+  font-size: 15px;
 }
 
 /*basic css*/

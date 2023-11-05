@@ -7,9 +7,13 @@ html {
   background-image: url("vid/sweetlikecandylong.gif");
   background-blend-mode: lighten;
   background-size: auto;
-  background-position: 0px -75px;
+  background-position: -75px -25px;
   font-size: 12px;
   background-color: rgba(242,212,215,0.25);
+  padding-top: 15%;
+  padding-bottom: 15%;  
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 a:link {
@@ -40,95 +44,52 @@ h1 {
   font-style: ;
   font-size: 24px;
   text-align: ;
-  max-width: 80%;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 0;
-  padding-top: 0;
 }
 
 h2 {
   font-style: ;
   text-align: ;
   font-size: 12px;
-  max-width: 80%;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 0;
-  padding-top: 0;
+}
+
+.index {
+  border: 5px solid #000;
+  border-style: dotted;
+  padding: 15px 15px 15px 15px;
+  background-color: rgba(255,230,251, 0.25);
 }
 
 .header {
   font-weight: bold;
-  font-size: 20px;
-  max-width: 400px;
-/*  background-color: rgba(179, 222, 255, 0.50);*/
-  max-width: 80%;
-  padding-left: 10%;
-  padding-right: 10%;
+  font-size: 50px;
+/*  background-color: rgba(131, 0, 0, 0.25);*/
   justify-content: center;
-  padding-bottom: 0;
-  padding-top: 0;
 }
 
 .subheader {
   font-style: italic;
-  font-size: 12px;
-  max-width: 400px;
-  max-width: 80%;
-  padding-left: 10%;
-  padding-right: 10%;
+  font-size: 15px;
+/*  background-color: rgba(255, 190, 0, 0.25);*/
   justify-content: center;
-  padding-bottom: 0;
-  padding-top: 0;
 }
 
 .topnavigation {
-  font-size: 15px;
-  max-width: 450px;
-  max-width: 80%;
-  padding-left: 10%;
-  padding-right: 10%;
+  font-size: 25px;
+/*  background-color: rgba(0, 131, 204, 0.25);*/
   justify-content: center;
-  padding-bottom: 10px;
-  padding-top: 0;
-}
-
-.horizontaldivbottom {
-  border-bottom: 5px solid #000;
-  margin-bottom: 10px;
-}
-
-.images {
-  max-width: 100%;
-  max-height: auto;
-}
-
-.exhibitions {
-  display: grid;
-  grid-template-columns: auto auto;
-  justify-content: left;
-  grid-column-gap: 25px;
-  grid-row-gap: 10px;
-  align-items: center;
-  text-align: left;
-  
-}
-
-.horizontaldivtop {
-  border-top: 5px solid #000;
-  margin-top: 10px;
 }
 
 .bottomnavigation {
-  position: static;
-  bottom: 0px;
-  justify-content: center;
+  font-size: 15px;
 /*  padding-bottom: 10px;  */
+  position: 1% 90%;
+  padding: 0px 0px 0px 0px;
 }
 
 /*layout responsive to tab size change*/
-@media only screen and (max-width: 500) {
+@media only screen and (max-width: 900px) {
+  html {
+  }
 }
 
 @media only screen and (max-width: ) {
