@@ -1,9 +1,5 @@
 html {
-/*  font-family: 'Courier Prime', monospace;*/
-/*  font-family: 'Open Sans', sans-serif;*/
   font-family: 'DotGothic16', sans-serif;
-  text-align: center;
-  justify-content: center;
   max-width: 80%;
   padding-top: 10px;
   padding-left: 10%;
@@ -67,20 +63,6 @@ body {
   padding-right: 25px;
 }
 
-/*gallery grid*/
-.gallery {
-  max-width: %;
-  grid-template-columns: auto auto auto;
-  display: grid;
-  grid-column-gap: ;
-  grid-row-gap: ;
-  justify-content: ;
-  align-items: ;
-  max-width: 80%;
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
 .header {
   font-weight: bold;
   font-size: 20px;
@@ -89,6 +71,7 @@ body {
   max-width: 80%;
   padding-left: 10%;
   padding-right: 10%;
+  text-align: center;
   justify-content: center;
   padding-bottom: 0;
   padding-top: 0;
@@ -101,6 +84,7 @@ body {
   max-width: 80%;
   padding-left: 10%;
   padding-right: 10%;
+  text-align: center;
   justify-content: center;
   padding-bottom: 0;
   padding-top: 0;
@@ -112,28 +96,60 @@ body {
   max-width: 80%;
   padding-left: 10%;
   padding-right: 10%;
+  text-align: center;
   justify-content: center;
   padding-bottom: 10px;
   padding-top: 0;
 }
 
 .horizontaldivbottom {
-  border-bottom: 5px solid #000;
+  border-bottom: 2px solid #000;
   margin-bottom: 10px;
 }
 
-.exhibitions {
+.gallery {
   display: grid;
   grid-template-columns: auto auto;
   justify-content: left;
-  grid-column-gap: 25px;
-  grid-row-gap: 10px;
-  align-items: center;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
   text-align: left;
 }
 
+.threegallery {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  text-align: center;
+}
+
+.lightimg {
+  width: 590px;
+  height: auto;
+}
+
+.projectimg-container {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.projectimg {
+  width: 100%;
+  height: 100%;
+}
+
+.threegalleryelement {
+  
+}
+
+.bioimg {
+}
+
 .horizontaldivtop {
-  border-top: 5px solid #000;
+  border-top: 2px solid #000;
   margin-top: 10px;
 }
 
@@ -145,22 +161,45 @@ body {
 }
 
 /*layout responsive to tab size change*/
-@media only screen and (max-width: 900px) {
-  .images {
-    max-width: 500px;
+@media only screen and (max-width: 1200px) {
+  .bioimg {
+    max-width: 350px;
     max-height: auto;
+  }
+  .gallery {
+
   }
 }
 
-@media only screen and (max-width: 700px) {
-  .images {
+@media only screen and (max-width: 900px) {
+  .header {
+    font-size: 18px;
+  }
+  .subheader {
+    font-size: 10px;
+  }
+  .topnavigation {
+    font-size: 12px;
+    
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .bioimg {
     max-width: 300px;
     max-height: auto;
   }
+
+  .threegallery {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.threegalleryelement {
+  max-width: 300px;
+}
 }
 
 @media only screen and (max-width: ) {
-  .gallery {
-    grid-template-columns: ;
-  }
 }
