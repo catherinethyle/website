@@ -9,7 +9,7 @@ html {
   background-blend-mode: soft-light;
   background-size: auto;
   background-position: -75px -25px;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 a:link {
@@ -65,7 +65,7 @@ body {
 
 .header {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 30px;
   max-width: 400px;
 /*  background-color: rgba(179, 222, 255, 0.50);*/
   max-width: 80%;
