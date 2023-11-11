@@ -218,6 +218,11 @@ body {
     grid-template-columns: auto;
   }
 
+  .gallerycontact {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
   .lightimg {
     max-width: 550px;
     max-height: auto;
