@@ -47,7 +47,7 @@ h1 {
 h2 {
   font-style: ;
   text-align: ;
-  font-size: 12px;
+  font-size: 15px;
   padding-bottom: 0;
   padding-top: 0;
 }
@@ -123,8 +123,20 @@ body {
   grid-column-gap: 15px;
   grid-row-gap: 15px;
   text-align: center;
-  place-items: center;
+  place-items: bottom;
 }
+
+.gallerycontact {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-content: center;
+  justify-content: center;
+  place-items: center;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  text-align: left;
+}
+
 
 .sweetimg {
   width: 590px;
@@ -147,6 +159,34 @@ body {
 }
 
 .bioimg {
+}
+
+.contact-form input[type="submit"] {
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+.contact-form input[type="submit"]:hover {
+    font-family: 'DotGothic16', sans-serif;
+    justify-content: center;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-form {
+    padding: 10px;
+    width: 400px;
+    justify-content: center;
+}
+
+.contact-form textarea {
+    height: 175px;
+    justify-content: center;
 }
 
 .horizontaldivtop {
@@ -204,6 +244,12 @@ body {
     display: grid;
     grid-template-columns: auto;
   }
+
+  .gallerycontact {
+  display: grid;
+  grid-template-columns: auto;
+}
+
   .bioimg {
     max-width: 300px;
     max-height: auto;
