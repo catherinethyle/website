@@ -220,7 +220,7 @@ body {
 
   .gallerycontact {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
   }
 
   .lightimg {
@@ -249,11 +249,6 @@ body {
     display: grid;
     grid-template-columns: auto;
   }
-
-  .gallerycontact {
-  display: grid;
-  grid-template-columns: auto;
-}
 
   .bioimg {
     max-width: 300px;
