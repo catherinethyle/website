@@ -6,8 +6,8 @@ html {
   justify-content: center;
   background-image: url("vid/sweetlikecandylong.gif");
   background-blend-mode: lighten;
-  background-size: auto;
-  background-position: -75px -25px;
+  background-attachment: fixed;
+  background-size: cover;
   font-size: 12px;
   background-color: rgba(242,212,215,0.25);
   padding-top: 15%;
