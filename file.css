@@ -152,6 +152,11 @@ body {
   height: auto;
 }
 
+.projectimgz {
+  width: 390px;
+  height: auto;
+}
+
 .projecttxt {
   background-color: rgba(131, 204, 0, 0.35);
   color: white;
